@@ -1,0 +1,49 @@
+{
+  "icons": [
+    {
+      "src": "./assets/favicon.ico",
+      "sizes": "218x218",
+      "type": "image/x-icon",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./assets/favicon144.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+        "src":"./assets/favicon502.png",
+        "sizes":"502x502",
+        "type":"image/png",
+        "purpose": "any maskable"
+    },
+    {
+        "src":"./assets/favicon512.png",
+        "sizes":"512x512",
+        "type":"image/png",
+        "purpose": "any maskable"
+    },
+     {
+        "src":"./assets/favicon120.png",
+        "sizes":"120x120",
+        "type":"image/png",
+        "purpose": "any maskable"
+     },
+      {
+        "src":"./assets/favicon180.png",
+        "sizes":"180x180",
+        "type":"image/png",
+        "purpose": "any maskable"
+    }
+  ],
+  "background_color": "white",
+  "description": "Odokekere community high school official website.",
+  "display": "standalone",
+  "theme_color": "lightgreen",
+  "name": "Odokekere junior secondary school",
+  "short_name": "OJSS", 
+  "start_url": "/",
+  "lang": "en",
+  "scope": "/"
+}
