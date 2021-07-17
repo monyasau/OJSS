@@ -73,9 +73,12 @@ function randomValueFromArray(array) {
 }
 setInterval(() => {
   const randomChoice = randomValueFromArray(images);
-  imgElem.src = `svg/${randomChoice}.svg`;
+  imgElem.src = `/assets/svg/${randomChoice}.svg`;
 }, 3000);
 
+var yearelem = document.getElementById("year");
+var year = new Date().getFullYear();
+yearelem.innerHTML = year;    
 
 // function func() {
 //   setInterval(function(){ alert("Hello"); }, 3000);
