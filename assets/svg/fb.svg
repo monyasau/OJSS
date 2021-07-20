@@ -1,0 +1,11 @@
+<svg width="20" height="20" version="1.1" viewBox="0 0 71.417 71.429" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+ <metadata>
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:title/>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <path d="m20.038 0.24403c-10.065 0-18.174 8.1-18.174 18.165v34.34c0 10.065 8.1092 18.174 18.174 18.174h31.176c10.065 0 18.174-8.1092 18.174-18.174v-34.34c0-10.065-8.1092-18.165-18.174-18.165zm31.346 11.801c3.3099 0 5.883 0.13332 7.7068 0.40305v8.8671h-5.3035c-1.9347 0-3.2489 0.39996-3.9244 1.2092-0.67548 0.80919-1.0039 2.0287-1.0039 3.6471v6.3702h9.887l-1.3183 9.978h-8.5687v25.589h-10.343v-25.589h-8.6093v-9.978h8.6093v-7.3532c0-4.1808 1.1771-7.41 3.5188-9.7027 2.3417-2.2927 5.4543-3.4407 9.3496-3.4407z" color="#000000" fill="#05c0ff" stop-color="#000000"/>
+</svg>

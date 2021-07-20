@@ -1,15 +1,18 @@
-// When the user scrolls the page, execute myFunction 
-window.onscroll = function() {scrollfunc()};
+// When the user scrolls the page, execute myFunction
+window.onscroll = function () {
+  scrollfunc();
+};
 
 function scrollfunc() {
   var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
-  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var height =
+    document.documentElement.scrollHeight -
+    document.documentElement.clientHeight;
   var scrolled = (winScroll / height) * 100;
   document.getElementById("myBar").style.width = scrolled + "%";
 }
 document.cookie = "trial=i am a trial cookie; max-age=1200000000;";
 // document.cookie = userdata + "=" + ";" + expires + ";path=/";
-
 
 // function setCookie(cname, cvalue, exdays) {
 //   var d = new Date();
@@ -45,17 +48,15 @@ document.cookie = "trial=i am a trial cookie; max-age=1200000000;";
 //   }
 // }
 
-
-
-      //dropdown
-        function dropdown() {
-          var x = document.getElementById("myTopnav");
-          if (x.className === "topnav") {
-            x.className += " responsive";
-          } else {
-            x.className = "topnav";
-          }
-        }
+//dropdown
+function dropdown() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
 // ip loc
 //  function getIP(json) {
 //    if (json.country && json.city) {
@@ -65,7 +66,7 @@ document.cookie = "trial=i am a trial cookie; max-age=1200000000;";
 //    }
 //  }
 
-const images = ["001","002","003","004"];
+const images = ["001", "002", "003", "004"];
 const imgElem = document.querySelector("#img");
 function randomValueFromArray(array) {
   const randomNo = Math.floor(Math.random() * array.length);
@@ -75,10 +76,7 @@ setInterval(() => {
   const randomChoice = randomValueFromArray(images);
   imgElem.src = `/assets/svg/${randomChoice}.svg`;
 }, 3000);
-
-var yearelem = document.getElementById("year");
-var year = new Date().getFullYear();
-yearelem.innerHTML = year;    
+document.getElementById("year").innerHTML = " Copyright &copy;"+  d.getFullYear() + " Odokekere Junior Secondary School. Designed by Olajide Olanrewaju  <a href='www.olanre.netlify.com' >Olajide Olanrewaju</a>" /*"Odokekere Junior Secondary School. Designed by <a href="www.olanre.netlify.com" style="color: #666666; font-size: 1.3em;">Olajide Olanrewaju</a>" */;
 
 // function func() {
 //   setInterval(function(){ alert("Hello"); }, 3000);

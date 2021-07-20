@@ -24,7 +24,7 @@ body::-webkit-scrollbar-track {
 }
 .progress-bar {
   position: fixed;
-  height: 8px;
+  height: 4px;
   background: #76e17a;
   width: 0%;
   box-shadow: #ddd 0px 8px 7px 0px;
@@ -182,7 +182,7 @@ header.topnav li.icon {
 }
 /* my framework end */
 .btn {
-  padding-top: 1em;
+  padding: 0.5em;
   font-size: 1.3em;
 }
 .first-sect {
@@ -201,7 +201,7 @@ header.topnav li.icon {
   /* margin-left: auto; */
 }
 .childtxt {
-  padding-left: 1em;
+  padding: 0.9em;
   letter-spacing: 0.07em;
   line-height: 1.5;
   /* max-width: 600px; */
@@ -214,7 +214,8 @@ header.topnav li.icon {
   margin-right: auto;
   margin-left: auto;
   padding: 4em 0;
-  background-color: #ededed;
+  /* max-width: 1024px; */
+  background-color: #f3f3f3;
 }
 .dept-headtext {
   /* font-size: 200%; */
@@ -227,17 +228,21 @@ header.topnav li.icon {
   letter-spacing: 0.04em;
   line-height: 1.1;
 }
+.dept-child:hover {
+  box-shadow: 0.2em 0em 1em 0em #777 ;
+}
 .dept-child {
   display: flex;
   flex-direction: column;
   font-family: cursive;
   min-width: 0;
-  border: 0.5px solid #9c9c9c;
+  box-shadow: 0.2em 0.3em 0.3em 0em #777;
+  /* border: 0.5px solid #9c9c9c; */
   border-radius: 0.25rem;
   width: 18rem;
-  border-style: solid;
+  /* border-style: solid; */
   /* border-color: #4bae4e; */
-  border-width: 0.5px; 
+  /* border-width: 0.5px;  */
   padding: 1em;
   margin: 1em auto;
   background-color: #fff;
@@ -248,7 +253,7 @@ header.topnav li.icon {
   width: 50%;
 }
 .lastchildtxt {
-  padding-left: 1em;
+  padding-left: 2em;
   letter-spacing: 0.04em;
   line-height: 1.1;
   /* max-width: 600px; */
@@ -256,7 +261,7 @@ header.topnav li.icon {
 
 .lastheadtxt {
   font-size: 2.1em;
-  padding-left: 10px;
+  padding-left: 1em;
 }
 .last-sect {
   /* height: 80vh; */
@@ -266,9 +271,17 @@ header.topnav li.icon {
   margin: 0 auto;
   padding: 5em 0;
 }
+.contactme {
+  padding: 0 0.5em;
+}
 footer {
-  background-color: #ededed;
+  background-color: #55c459;
   text-align: center;
-  padding: 3em;
-  color: #777;
+  padding: 2em;
+  color: #fff;
+}
+.footertwo {
+  background-color: #ededed;
+  padding: 2em;
+  color: #5f5f5f;
 }
