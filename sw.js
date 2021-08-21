@@ -1,7 +1,7 @@
 self.addEventListener("install", (e) => {
   e.waitUntil(
     caches
-      .open("ochs-store")
+      .open("ojss")
       .then((cache) =>
         cache.addAll([
           "/",
@@ -10,7 +10,14 @@ self.addEventListener("install", (e) => {
           "/js/index.js",
           "/js/plugins.js",
           "./css/style.css",
-          "./assets/favicon.ico"
+          "./assets/favicon.ico",
+          "./assets/svg/001.svg",
+          "./assets/svg/002.svg",
+          "./assets/svg/003.svg",
+          "./assets/svg/004.svg",
+          "./assets/logo.png",
+          "./assets/playstore-badge.png",
+          "./assets/appstore-badge.png",
         ])
       )
   );
@@ -21,6 +28,31 @@ self.addEventListener("fetch", (e) => {
     caches.match(e.request).then((response) => response || fetch(e.request))
   );
 });
+
+// self.addEventListener("install", (e) => {
+//   e.waitUntil(
+//     caches
+//       .open("ochs-store")
+//       .then((cache) =>
+//         cache.addAll([
+//           "/",
+//           "/index.html",
+//           "./css/style.css",
+//           "/manifest.json",
+//           "/js/index.js",
+//           "/js/plugins.js",
+//           "./assets/favicon.ico",
+//         ])
+//       )
+//   );
+// });
+// self.addEventListener("fetch", (e) => {
+//   console.log(e.request.url);
+//   e.respondWith(
+//     caches.match(e.request).then((response) => response || fetch(e.request))
+//   );
+// });
+
 
 // dev.to ServiceWorker
 // // Serviceworkers file. This code gets installed in users browsers and runs code before the request is made.
